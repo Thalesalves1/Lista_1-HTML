@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+
+	<style type="text/css">
+		a{
+			color: black;
+		}
+		a:link{
+			text-decoration: none;
+		}
+		a:hover{
+			background-color: black;
+			color: white;
+		}
+	</style>
+</head>
+<body bgcolor="orange">
+	<a href="index.html">Página 1</a>
+	<a href="pagina2.html">Página 2</a>
+	<a href="pagina3.html">Página 3</a>
+	<a href="pagina4.html">Página 4</a>
+
+	<h1>Formulário</h1>
+	<br>
+
+	<form>
+		Nome: <input type="text" name="nome" placeholder="Digite seu nome">
+		<br><br>
+
+		Email: <input type="email" name="email" placeholder="Digite seu email">
+		<br><br>
+
+		Frutas: <br>
+		Maça<input type="radio" name="escolhas">
+		Laranja<input type="radio" name="escolhas">
+		Goiaba<input type="radio" name="escolhas">
+		Manga<input type="radio" name="escolhas">
+		Morango<input type="radio" name="escolhas">
+		Uva<input type="radio" name="escolhas">
+		<br><br>
+
+		Descrição: 
+		<br>
+		<textarea placeholder="Insira sua descrição"></textarea>
+		<br><br>
+
+		<input type="submit" name="butao" value="ENVIAR">
+	</form>
+
+	<h2>Inputs</h2>
+
+	<form>
+		Data: <input type="date">
+		<br><br>
+		Senha: <input type="password" name="senha">
+		<br><br>
+		Números: <input type="number" name="numeros">
+		<br><br>
+		Mês: <input type="month">
+		<br><br>
+		Color: <input type="color" name="cores">
+		<br><br>
+		Arquivos: <input type="file">
+		<br><br>
+		Caixa de Seleção: <input type="checkbox">
+		<input type="checkbox">
+		<br><br>
+		Tempo: <input type="time">
+		<br><br>
+		Pesquisa: <input type="search">
+		<br><br>
+		Butão: <input type="button" name="butao" value="Enviar">
+	</form>
+</body>
+</html>
